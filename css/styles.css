@@ -1,6 +1,7 @@
 body
 {
-  background-color: #ededff;
+  background-color: #ececf8;
+  font-family: serif;
 }
 
 /*--------------heading-----------------*/
@@ -52,6 +53,7 @@ body
 {
   background-color: #db2b25;
   border: none;
+
 }
 .edit_lfi button:hover
 {
@@ -64,7 +66,7 @@ body
 }
 .add_lfi button
 {
-  background-color: #181bc7;
+  background-color: #555692;
   color: #fff;
   padding: 10px 40px;
   border: none;
@@ -73,7 +75,7 @@ body
   font-size: 12pt;
 }
 .add_lfi button:hover{
-  background-color: #3f42eb;
+  background-color: #5356b3;
   transition: .3s;
 }
 .fa-plus
@@ -92,23 +94,27 @@ body
   height: 100px;
   width: 90%;
   padding-top: 20px;
-  background-image: linear-gradient(0deg, #6464e8,  #f0f0f7);
+  background-image: linear-gradient(0deg, #c4c4e7,  #f0f0f7);
   border-radius: 10px;
+  
   border: 1px solid #c9c7c7;
 
 }
 .content_box:hover{
-  box-shadow: 1px 1px 5px #6464e8;
+  box-shadow: 1px 1px 5px #a6a6da;
   transition: .3s;
 }
 .content a
 {
   text-decoration: none;
   background-color: #fff;
-  color: #000;
+  color: #313031;
   font-size: 20px;
 }
-
+.fa-copy,.fa-magnifying-glass,.fa-circle-info,.fa-pen-to-square
+{
+  font-size: 30px;
+}
 /*--------------chart-------------*/
 .chart
 {
