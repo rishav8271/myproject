@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>LFI</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/help.css">
+
+</head>
+<body>
+<!-----------------------Heading------------------>
+<section>
+  <div class="container-fluid">
+    <div class="row heading">
+      <div class="col-lg-1 col-md-2 col-2 p-0">
+      <img src="./images/think.png">
+      </div>
+      <div class="col-lg-10 col-md-8 col-8 p-0">
+        <h3>learning from incident</h3>
+        <p>The Global Tool Learning Incidents</p>
+      </div>
+      <div class="col-lg-1 col-md-2 col-2 p-0">
+        <img src="./images/logo.png">
+      </div>
+  </div>
+  </section>
+<!-----------------------Heading Data------------------>
+<section>
+  <div class="container-fluid text-center heading_data">
+    <p>This help section provides you with various guidance in relation to the LFI Process, the LFI Tool and associated reference material to assist you while using the Tool. <br>Please click the various tabs below to view each of the Help Topics:-</p>
+  </div>
+</section>
+  <!-------------------Navbar----------------------->
+  <section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+      <div class="container-fluid">
+        <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-0 mx-lg-1 mb-1 mb-lg-0">
+              <a class="nav-link  nav_data actives" href="#" onclick="contactdetails()">Contact Details</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1 mb-1 mb-lg-0">
+              <a class="nav-link nav_data" id="guidelink" href="#" onclick="guidelines()">Guidelines</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1 mb-1 mb-lg-0">
+              <a class="nav-link nav_data" id="processlink" href="#" onclick="processflow()">Process Flow</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1 mb-1 mb-lg-0">
+              <a class="nav-link nav_data" id="masterdatalink" href="#" onclick="masterdata()">Master Data</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1 mb-1 mb-lg-0">
+              <li class="nav-item ">
+              <a class="nav-link nav_data" id="contactstructurelink" href="#" onclick="contactstructure()">Contact Structure</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1 mb-1 mb-lg-0">
+              <li class="nav-item ">
+              <a class="nav-link nav_data" id="exchangerateslink" href="#" onclick="exchangerates()">Exchange Rates</a>
+            </li>
+          </ul>
+        
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-------------------Contact Details----------------------->
+<section id="contactdetails" class="contactdetails">
+  <div class="container-fluid">
+<h4 class="contact_heading mb-4">Contact Details</h4>
+<p class="tool_issue">Tool Issue</p>
+<p>For any problems encountered when utilising the LFI tool (access issue, fields and functionality or report issue), then contact should be the <a href="#">LFI Support Team.</a></p>
+<p class="tool_issue">Process Issue</p>
+<p>For any help or assistance required with the LFI process or how to log and record LFIs please contact your respective <a href="#">Incident Management Focals.</a></p>
+<a href="#">Pleae click here to find the details about IMFocals accross Business.</a>
+  </div>
+</section>
+
+ <!-------------------Guidelines----------------------->
+ <section id="guidelines" class="guidelines">
+  <div class="container-fluid">
+<h4 class="contact_heading mb-4">Guidelines</h4>
+<p>Group Wide <a href="#">LFI Procedure.</a></p>
+<p>Group Wide <a href="#">LFI Tool Guide.</a></p>
+<a href="#">LFI Website.</a>
+<p>Further Guidance on <a href="#">Writing a Good LFI Report.</a></p>
+<p class="tool_issue my-3">Business/Function specific Guidelines</p>
+<p>Additional Business/Functional pecific guidance is provided below:-</p>
+<a href="#">Downstream Specific Guidance.</a><br>
+<a href="#">Tax Specific Guidance.</a><br>
+<a href="#">Finance Operationas - Training Slides.</a>
+  </div>
+</section>
+
+ <!-------------------Process Flow----------------------->
+ <section id="processflow" class="processflow">
+  <div class="container-fluid">
+<h4 class="contact_heading mb-4">Process Flow</h4>
+<p>Please find more information on <a href="#">LFI Process Flow.</a></p>
+  </div>
+</section>
+
+ <!-------------------Master Data----------------------->
+ <section id="masterdata" class="masterdata">
+  <div class="container-fluid">
+<h4 class="contact_heading mb-4">Master Data</h4>
+<p class="tool_issue">process, sub process & sub sub process</p>
+<p>Please find excel download of <a href="#">Process Structure.</a></p>
+
+<p class="tool_issue">legal entity help</p>
+<p>Please find more information on <a href="#">Legal Entities Within LFI Tool.</a></p>
+
+<p class="tool_issue">Risk help</p>
+<p>Please find more information on <a href="#">Risk & Sub Risk.</a></p>
+
+<p class="tool_issue">Causes help</p>
+<p>Please find more information on <a href="#">Root Cause Category, Type & Definitions.</a></p>
+
+<p class="tool_issue">Themes and Sub themes</p>
+<p>Please find more information on <a href="#">Themes and Sub Themes.</a></p>
+
+<p class="tool_issue">Incident Level combination matrix</p>
+<p>Please find more information on the <a href="#">Incident Level Combination Matrix.</a></p>
+
+
+  </div>
+</section>
+
+ <!-------------------Contact Structure----------------------->
+ <section id="contactstructure" class="contactstructure">
+  <div class="container-fluid">
+<h4 class="contact_heading mb-4">Contact Structure</h4>
+
+<p class="tool_issue">Incident management focal contacts</p>
+<p>Please click to find <a href="#">IMFocal Per BUsiness/Function.</a></p>
+
+<p class="tool_issue">Finance operations contact structure</p>
+<p>Please find downloadable list of contact & IMFocal as per <a href="#">Finance Operations Contact Structure.</a></p>
+
+<p class="tool_issue">Business contact structure</p>
+<p>Please find downloadable list of contact & IMFocal as per <a href="#">Business Contact Structure.</a></p>
+
+  </div>
+</section>
+
+<!-------------------Exchange Rates----------------------->
+<section id="exchangerates" class="exchangerates">
+  <div class="container-fluid">
+<h4 class="contact_heading mb-4">Exchange Rates</h4>
+<p>Please find more information on <a href="#">Exchange Rates.</a></p>
+  </div>
+</section>
+<!-------------------Back Button----------------------->
+
+<a href="index.html" class="btn btn-danger mt-5 ms-2">Back</a>
+
+<script>
+  function contactdetails(){
+    document.getElementById("contactdetails").style.display ="block";
+    document.getElementById("guidelines").style.display ="none";
+    document.getElementById("processflow").style.display ="none";
+    document.getElementById("masterdata").style.display ="none";
+    document.getElementById("contactstructure").style.display ="none";
+    document.getElementById("exchangerates").style.display ="none";
+  }
+  function guidelines(){
+    document.getElementById("contactdetails").style.display ="none";
+    document.getElementById("guidelines").style.display ="block";
+    document.getElementById("processflow").style.display ="none";
+    document.getElementById("masterdata").style.display ="none";
+    document.getElementById("contactstructure").style.display ="none";
+    document.getElementById("exchangerates").style.display ="none";
+    
+  }
+  function processflow(){
+    document.getElementById("contactdetails").style.display ="none";
+    document.getElementById("guidelines").style.display ="none";
+    document.getElementById("processflow").style.display ="block";
+    document.getElementById("masterdata").style.display ="none";
+    document.getElementById("contactstructure").style.display ="none";
+    document.getElementById("exchangerates").style.display ="none";
+  }
+  function masterdata(){
+    document.getElementById("contactdetails").style.display ="none";
+    document.getElementById("guidelines").style.display ="none";
+    document.getElementById("processflow").style.display ="none";
+    document.getElementById("masterdata").style.display ="block";
+    document.getElementById("contactstructure").style.display ="none";
+    document.getElementById("exchangerates").style.display ="none";
+  }
+  function contactstructure(){
+    document.getElementById("contactdetails").style.display ="none";
+    document.getElementById("guidelines").style.display ="none";
+    document.getElementById("processflow").style.display ="none";
+    document.getElementById("masterdata").style.display ="none";
+    document.getElementById("contactstructure").style.display ="block";
+    document.getElementById("exchangerates").style.display ="none";
+  }
+  function exchangerates(){
+    document.getElementById("contactdetails").style.display ="none";
+    document.getElementById("guidelines").style.display ="none";
+    document.getElementById("processflow").style.display ="none";
+    document.getElementById("masterdata").style.display ="none";
+    document.getElementById("contactstructure").style.display ="none";
+    document.getElementById("exchangerates").style.display ="block";
+  }
+
+  var item = document.querySelectorAll('ul li a');
+  for(i=0; i<item.length; i++){
+    item[i].addEventListener('click', function(){
+      document.querySelector('ul li a.actives').classList.remove('actives');
+      this.classList.add('actives');
+    })
+  }
+</script>
+</body>
+</html>
