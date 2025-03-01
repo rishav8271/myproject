@@ -1,0 +1,137 @@
+
+.heading_data
+{
+  background-color: #fff;
+}
+.heading_data p
+{
+  margin: 0px;
+  padding: 5px 0px;
+  color: #807e7e;
+  font-size: 15px;
+}
+
+/*--------------------NavBar---------------------------*/
+.nav_data{
+  background-color: #fff;
+  border-radius: 5px;
+  color: #000;
+  padding: 5px;
+  text-transform: capitalize;
+}
+.nav_data:hover
+{
+  color: #fff;
+  background-color: #5356b3;
+  transition: .3s;
+}
+.actives
+{
+  color: #fff;
+  background-color: #555692;
+  
+}
+
+/*--------------------Contact Details---------------------------*/
+.contactdetails{
+  display: block;
+}
+.contact_heading
+{
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.tool_issue
+{
+  margin-top: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: red;
+}
+.contactdetails a
+{
+  color: #000;
+}
+.contactdetails a:hover
+{
+  color: #3538f5;
+  transition: .3s;
+}
+/*--------------------guidelines---------------------------*/
+.guidelines
+{
+  display: none;
+}
+.guidelines p
+{
+  margin: 5px;
+}
+.guidelines a
+{
+  color: #000;
+  padding: 5px;
+}
+.guidelines a:hover
+{
+  color: #3538f5;
+  transition: .3s;
+}
+/*--------------------processflow---------------------------*/
+.processflow
+{
+  display: none;
+}
+.processflow a
+{
+  color: #000;
+}
+.processflow a:hover
+{
+  color: #3538f5;
+  transition: .3s;
+}
+/*--------------------masterdata---------------------------*/
+.masterdata
+{
+  display: none;
+}
+.masterdata a
+{
+  color: #000;
+}
+.masterdata a:hover
+{
+  color: #3538f5;
+  transition: .3s;
+}
+/*--------------------contactstructure---------------------------*/
+.contactstructure
+{
+  display: none;
+}
+.contactstructure a
+{
+  color: #000;
+}
+.contactstructure a:hover
+{
+  color: #3538f5;
+  transition: .3s;
+}
+/*--------------------exchangerates---------------------------*/
+.exchangerates
+{
+  display: none;
+}
+.exchangerates a
+{
+  color: #000;
+}
+.exchangerates a:hover
+{
+  color: #3538f5;
+  transition: .3s;
+}
