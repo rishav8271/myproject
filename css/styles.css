@@ -133,7 +133,7 @@ body
   background-color: #fff;
   margin:10px;
   padding: 5px;
-  min-height: 300px;
+  height: 300px;
   border-radius: 10px;
 }
 .chart_table p{
